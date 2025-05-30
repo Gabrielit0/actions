@@ -5,6 +5,6 @@ jobs:
   primerdeploy:
     runs-on: ubuntu-latest
     steps:
-      run: echo "ejectando oracle"
-      run: echo "ejecutando el proceso"
-      run: echo "job fianlizado"
+      - run: echo "ejectando oracle"
+      - run: echo "ejecutando el proceso"
+      - run: echo "job fianlizado"
