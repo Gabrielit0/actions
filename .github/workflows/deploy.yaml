@@ -1,0 +1,10 @@
+name: "PROESO_CARGA_ARQUE3"
+on:
+  workflow_dispatch:
+jobs:
+  primerdeploy:
+    runs-on: ubuntu-latest
+    steps:
+      run: echo "ejectando oracle"
+      run: echo "ejecutando el proceso"
+      run: echo "job fianlizado"
